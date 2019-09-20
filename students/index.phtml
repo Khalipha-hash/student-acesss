@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+	<meta charset="UTF-8">
+	<title>Confirm</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+	<link rel="stylesheet" href="css/student-style.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+	
+    <body>
+	<div class="container text-center">
+		<br /><br />
+		
+		<div id="confirm">
+		<h1>Confirm</h1>
+
+		<img src="../img/drive.png" width="50px" height="50px" alt="drive_logo" />
+        <?php foreach ($files as $file) { ?>
+            <h3><?php echo $file; ?></h3>
+        <?php } ?>
+  
+		
+		<h3>Share work with students?</h3>
+        <form method="post" action="<?php echo $url; ?>">
+            <input type="submit" class="button" value="Share" name="submit">
+        </form>
+		<br />
+		<a href="workroom.php"><button type="button" title="Upload your work for others to see" class="button" style="width:200px;"><span class="glyphicon glyphicon-arrow-left"></span> Back</button></a>
+		</div>
+	</div>
+    </body>
+</html>

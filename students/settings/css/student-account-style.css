@@ -1,0 +1,173 @@
+body
+{
+    font-family: 'Nunito', sans-serif;
+    background-color: #FFFFFF;
+}
+
+.navbar
+{
+	background-color: #25B99A;
+	margin-bottom: 0;
+	border: 0;
+	border-radius: 0;
+	overflow: hidden;
+}
+.navbar-nav li a:hover, li a:active
+{
+	color: #000000 !important;
+}
+.navbar li a, .navbar-brand 
+{
+   color: #FFFFFF !important;
+}
+ .navbar
+{
+	border-color: #FFFFFF;
+}
+.navbar-toggle
+{
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+}
+
+footer
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #000000;
+    overflow: hidden;
+}
+
+.update-button 
+{
+    background-color: #25B99A;
+    width: 115px;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.cash-button 
+{
+    background-color: #25B99A;
+    width: 115px;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.update-button:hover
+{
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.well
+{
+    background-color: #22AA8d;
+    border: 0;
+    border-radius: 0;
+    margin-top: 20px;
+    
+}
+
+/*Account Styling */
+
+#settings-section
+{
+    margin-top: 50px;
+}
+
+#menu ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li a 
+{
+    display: block;
+    color: #FFFFFF;
+    padding: 20px 16px;
+    text-decoration: none;
+    border-bottom: 3px solid #FFFFFF;
+}
+
+#menu li a:hover 
+{
+    background-color: #25B99A;
+    color: white;
+}
+
+input[type=text] 
+{
+    background-color: #25B99A;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 0;
+    outline: none;
+    margin: 0 auto;
+    box-shadow: 10px 10px 5px #1D957b;
+}
+
+input[type=password] 
+{
+    background-color: #25B99A;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 0;
+    outline: none;
+    margin: 0 auto;
+    box-shadow: 10px 10px 5px #1D957b;
+}
+
+
+/* select 
+{
+    background-color: #25B99A;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 0;
+    outline: none;
+    margin: 0 auto;
+    box-shadow: 10px 10px 5px #1D957b;
+} */
+
+.well textarea
+{
+    background-color: #25B99A;
+    padding: 10px;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 0;
+    outline: none;
+    margin: 0 auto;
+    box-shadow: 10px 10px 5px #1D957b;
+}
+
+.well ::-webkit-input-placeholder 
+{
+    color: #FFFFFF;
+}
+
+#white
+{
+    color: #FFFFFF;
+}
+
+#bioval
+{
+    background-color: #ff2323;
+    text-align: center;
+    color: #FFFFFF;
+}
